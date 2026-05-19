@@ -1,0 +1,24 @@
+{
+  "name": "MeshChat Kindle",
+  "version": "1.0.0",
+  "slug": "mesh-kindle-chat",
+  "description": "Lightweight Meshtastic chat client for Kindle and e-ink browsers via MeshMonitor API",
+  "url": "https://github.com/alterbarteq/meshchat-ha",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+    "8765/tcp": 8765
+  },
+  "ports_description": {
+    "8765/tcp": "MeshChat web interface"
+  },
+  "panel_icon": "mdi:radio-handheld",
+  "panel_title": "MeshChat",
+  "ingress": true,
+  "ingress_port": 8765,
+  "homeassistant_api": false,
+  "hassio_api": false,
+  "options": {},
+  "schema": {}
+}

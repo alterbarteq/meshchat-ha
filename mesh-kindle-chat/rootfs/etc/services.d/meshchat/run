@@ -1,2 +1,0 @@
-#!/usr/bin/with-contenv bashio
-exec httpd -f -p 8765 -h /var/www

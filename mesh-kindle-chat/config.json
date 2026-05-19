@@ -1,6 +1,6 @@
 {
   "name": "MeshChat Kindle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "mesh-kindle-chat",
   "description": "Lightweight Meshtastic chat client for Kindle and e-ink browsers via MeshMonitor API",
   "url": "https://github.com/YOURUSERNAME/meshchat-ha",
